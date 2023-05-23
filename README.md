@@ -11,12 +11,15 @@
 ## Creacion de la Base de datos
 
 Instale el programa XAMPP y dentro del control panel active (Start): Apache y MySQL respectivamente
+
 ![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/3aa3413d-884e-48f3-aa30-c213fa736f4c)
 
 Una vez iniciados, de click al Admin de Mysql
+
 ![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/42389c88-6f07-449a-9b83-1077eb8a08a1)
 
 O puede ir a un navegador he ingresar al localhost y luego dar click en phpmyadmin
+
 ![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/eab5f997-f970-4af8-8ecf-a986f373f089)
 
 Dentro de phpmyadmin cree una base de datos de nombre databd
