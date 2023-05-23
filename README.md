@@ -54,3 +54,35 @@ ALTER TABLE `user`
 
   INSERT INTO `user` (`id`,`firstname`,`lastname`,`email`,`passwd`,`img`,`rol`,`status`,`created_at`,`updated_at`) VALUES
 (1, 'admin1','admin1', 'admin1@gmail.com', '$2a$12$yR2/jOCceoU9xW17yBM4gunCsc3bw0o85nXpuYZeNQ4zggCXItBfO',null, 1,0,now(),now());
+
+
+## Uso del postman y las Api con validacion de token 
+- Acontunuacion dejare capturas del uso de la api
+
+Ejecutar la siguiente API, debe de salir el siguiente mensaje
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/105aa53b-508d-4b57-a559-4b744b6f342e)
+
+Para crear el token se debe de ejecutar la siguiente URL con los siguientes parametros:
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/83e00adc-3f20-433d-8812-e88672bcc1e0)
+
+Pacra crear un nuevo usuario se deben mandar los siguientes parametros y el token
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/8b19fb6b-6c92-4e4b-9895-c0ed9dbb2bb5)
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/05c60b70-f126-4b65-bf9a-26df40748771)
+
+La siguiente URL trae todos los usuarios registrados 
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/01d8e737-a2b5-4bea-84ff-588132bccfbd)
+
+
+Finalmente para poder jugar debe de seguir el siguiente orden en los parametros, utilizar la validacion de token
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/ef21b0b5-1b92-4248-b6a6-ac20ff862a92)
+
+![image](https://github.com/juancarlosmz/probabilidad_nodejs/assets/26284266/1097b1fc-1fd9-4f8d-a595-c23e34d4af8f)
+
+
+
